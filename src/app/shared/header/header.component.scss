@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.white {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+   
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    top: 1px; 
+}
+ 
+.icon img{
+    height: 60px;
+}
+
+.barra {
+    display: flex;
+    justify-content: center;
+    height: 72px;
+    top: 101px;
+    background-color: #FFC970
+}
+
+.enlaces{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+a {
+    text-decoration: none;
+    color: #444444; 
+  }
+  
+
