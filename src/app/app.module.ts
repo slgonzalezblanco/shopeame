@@ -8,6 +8,9 @@ import { TextComponent } from './pag/text/text.component';
 import { FormComponent } from './pag/form/form.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { FormsModule } from '@angular/forms';
+import { EditComponent } from './pag/edit/edit.component';
+
 
 
 @NgModule({
@@ -17,12 +20,15 @@ import { FooterComponent } from './shared/footer/footer.component';
     TextComponent,
     FormComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    EditComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

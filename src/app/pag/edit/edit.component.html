@@ -1,7 +1,7 @@
 <div class="fondo">
     <div class="texto">
 
-<h2>Creación de productos</h2>
+<h2>Edición de productos</h2>
 
 <form class="formulario">
     <p>Nombre del producto:</p>
@@ -15,14 +15,8 @@
     <p>Opiniones:</p>
     <input  [(ngModel)]="producto.stars" type="number" name="stars"  placeholder="Por ej: 4.5" class="casilla">
 <div>
-    <button (click)="post()" class="editar">Guardar</button>
+    <button (click)="put()" class="editar">Guardar</button>
 </div>
-
-
 </form>
-
 </div>
 </div>
-
-
-  

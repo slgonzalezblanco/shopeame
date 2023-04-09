@@ -28,6 +28,8 @@
                 </div>
                 <p class="titulo3">{{product.stars}}</p>
                 <p class="titulo4">{{product.name}}</p>
+                <button routerLink="/products/{{product.id}}">Editar Producto</button>
+                <button (click)="delete (product.id)">Borar Producto</button>
             </div>
         </div>
     </div>
